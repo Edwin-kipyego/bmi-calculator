@@ -17,7 +17,7 @@ export default function App() {
       setCategory(label);
       setProgressColor(color);
 
-      // Trigger fade-in animation
+      
       setShowResult(false);
       setTimeout(() => setShowResult(true), 50);
     } else {
@@ -39,7 +39,7 @@ export default function App() {
           BMI Calculator
         </h2>
 
-        {/* Weight Input */}
+        
         <label className="block mb-2 font-medium">Weight (kg):</label>
         <input
           type="number"
@@ -49,7 +49,7 @@ export default function App() {
           className="w-full p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-green-400"
         />
 
-        {/* Height Input */}
+      
         <label className="block mb-2 font-medium">Height (cm):</label>
         <input
           type="number"
@@ -59,7 +59,7 @@ export default function App() {
           className="w-full p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-green-400"
         />
 
-        {/* Calculate Button */}
+        
         <button
           onClick={calculateBMI}
           className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
@@ -67,7 +67,7 @@ export default function App() {
           Calculate BMI
         </button>
 
-        {/* Result Display */}
+        
         {bmi && (
           <div
             className={`mt-6 transform transition-all duration-500 ease-out ${
@@ -83,7 +83,7 @@ export default function App() {
               </p>
             </div>
 
-            {/* Progress Bar */}
+            
             <div className="mt-4">
               <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
                 <div
