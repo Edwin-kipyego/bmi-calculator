@@ -7,9 +7,7 @@ It calculates the BMI from weight and height, and displays the result with a **c
 
 ##  Preview
 
-![BMI Calculator Screenshot](.//home/edwin/development/code/projects/bmi-calculator/src/assets/Screenshot from 2025-08-13 10-58-28.png)
-
----
+![BMI Calculator Screenshot](./src/Screenshot.png)
 
 ##  Features
 
@@ -37,19 +35,19 @@ It calculates the BMI from weight and height, and displays the result with a **c
    ```bash
    git clone https://github.com/Edwin-kipyego/bmi-calculator
    cd bmi-calculator
-Install dependencies
+---Install dependencies
 
 
-npm install
-Run the development server
+---npm install
+---Run the development server
 
 
-npm run dev
-Build for production
+---npm run dev
+---Build for production
 
 
- How BMI is Calculated
-The BMI formula:
+--- How BMI is Calculated
+ --The BMI formula:
 
 
 BMI = weight (kg) / (height (m)²)
@@ -71,5 +69,7 @@ Modify layout directly with Tailwind utility classes
 
 
  Author:Edwin Kipkorir Kipyego
+
 Email: koriredwin95@gmail.com
+
  GitHub Profile: https://github.com/Edwin-kipyego
