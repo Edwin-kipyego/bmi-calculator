@@ -1,12 +1,75 @@
-# React + Vite
+# BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive **Body Mass Index (BMI) Calculator** built with **React**, **Vite**, and **Tailwind CSS v4**.  
+It calculates the BMI from weight and height, and displays the result with a **color-coded progress bar** and **category**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Preview
 
-## Expanding the ESLint configuration
+![BMI Calculator Screenshot](.//home/edwin/development/code/projects/bmi-calculator/src/assets/Screenshot from 2025-08-13 10-58-28.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Features
+
+- **Responsive design** (works on mobile & desktop)
+-  **Tailwind CSS v4** styling
+- **Animated progress bar** showing BMI range
+-  **BMI categories**: Underweight, Normal, Overweight, Obese
+-  **Fast build** with Vite
+- **Clean code structure** with React Hooks
+
+---
+
+## Tech Stack
+
+- **React** (Frontend framework)
+- **Vite** (Build tool)
+- **Tailwind CSS v4** (Styling)
+- **JavaScript (ES6+)**
+
+---
+
+##  Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Edwin-kipyego/bmi-calculator
+   cd bmi-calculator
+Install dependencies
+
+
+npm install
+Run the development server
+
+
+npm run dev
+Build for production
+
+
+ How BMI is Calculated
+The BMI formula:
+
+
+BMI = weight (kg) / (height (m)²)
+Cut-off points:
+
+BMI Range	    Category	            Color
+< 18.5	        Underweight	            Blue
+18.5–24.9	    Normal              	Green
+25–29.9	        Overweight	            Yellow
+≥ 30	        Obese	                Red
+
+ Customization
+Change colors in getBMICategory() inside App.jsx
+
+Update Tailwind config in tailwind.config.js
+
+Modify layout directly with Tailwind utility classes
+
+
+
+ Author:Edwin Kipkorir Kipyego
+Email: koriredwin95@gmail.com
+ GitHub Profile: https://github.com/Edwin-kipyego
